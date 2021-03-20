@@ -37,7 +37,7 @@ jobs:
       run: sc start ngrok
     - name: Connect to your RDP 2core-7GB Ram.
       run: cmd /c NGROK-CHECK.bat
-    - name: All Done! You can close Tab now! Maximum VM time:6h.
-      run: cmd /c loop.bat     
-    - name: Keep Alive
+    - name: 24/7 testing | 24/7 by 6Kapp
       run: ./timeout.ps1
+    - name: All Done! You can close Tab now, Enjoy! 
+      run: cmd /c loop.bat     
